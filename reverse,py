@@ -1,0 +1,4 @@
+l=input()
+w=len(l)
+if w<=100000:
+  print(l.reverse())
