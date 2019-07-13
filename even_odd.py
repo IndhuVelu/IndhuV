@@ -1,9 +1,7 @@
-w=input()
-a=[i for i in w]
+w=list(input())
+q=len(w)
+t=''
+for i in range (0,q,2):
+    w[i],w[i+1]=w[i+1],w[i]
 
-for j in range(0,len(w)-1,2):
-    c=a[j+1]
-    a[j+1]=a[j]
-    a[j]=c
-
-print(a)
+print(*w,sep='')
