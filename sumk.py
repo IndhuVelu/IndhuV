@@ -1,7 +1,10 @@
-n,k=int(input().split(" "))
-for i in range(0,n):
-  a=input()
-sum2=0
-for j in range(0,k):
-  sum2+=j
-  print(sum2)
+n,k=input().split(" ")
+n1=int(n)
+k1=int(k)
+l=[]
+l= list(map(int,input().strip().split()))[:n1] 
+sum1=0
+if k1 in l:
+    for i in range(k1+1):
+        sum1+=i
+    print(sum1)
