@@ -14,11 +14,9 @@ def areIsomorphic(string1, string2):
             map[ord(string1[i])] = string2[i]
         elif map[ord(string1[i])] != string2[i]:
             return False
-
     return True
 
-word1=input()
-word2=input()
+word1,word2=input().split(" ")
 if areIsomorphic(word1,word2):
     print("yes")
 else:
