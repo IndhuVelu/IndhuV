@@ -1,4 +1,5 @@
-l=input()
-w=len(l)
-if w<=100000:
-  print(l.reverse())
+def m(w):
+  return w[::-1]
+
+q= input()
+print(m(q))
