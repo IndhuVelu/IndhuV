@@ -5,5 +5,5 @@ for i in range (len(a)):
     if i>0 and v[a[i]]>v[a[i-1]]:
       p+=v[a[i]]-2*v[a[i-1]]
     else:
-      p+=v[roman[i]]
+      p+=v[a[i]]
 print(p)
