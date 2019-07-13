@@ -1,4 +1,6 @@
 a=int(input())
-l=list(a)
-if a.isdigit():
-  print(count(l))
+count=0
+while(a>0):
+    count=count+1
+    a=a//10
+print(count)
