@@ -1,5 +1,4 @@
-m,n=int(input())
-a=1
-for i in range(n):
-  a+=m*i
-print(a)
+m1,n1=input().split(" ")
+m=int(m1)
+n=int(n1)
+print(m**n)
