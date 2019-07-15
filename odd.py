@@ -5,4 +5,4 @@ for i in range(a,b+1):
         l1.append(i)
     else:
         continue
-print(l1)
+print(*l1)
