@@ -1,3 +1,3 @@
-in=int(input())
-temp1=in
+i=int(input())
+temp1=i
 print(temp1)
